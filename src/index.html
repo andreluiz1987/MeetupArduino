@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    socket.on("data", function(data){
+      console.log(data);
+    })
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Basic Progress Bar</h2>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="1000" *ngIf="" aria-valuemin="0" aria-valuemax="1023" style="width:30%">
+        <span class="sr-only">20% Complete</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

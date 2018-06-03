@@ -1,0 +1,21 @@
+{
+  "name": "arduinonodejstemp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongoose": "^4.8.5",
+    "nodemon": "^1.17.5",
+    "serialport": "^6.2.0",
+    "socket.io": "^2.1.1"
+  }
+}
